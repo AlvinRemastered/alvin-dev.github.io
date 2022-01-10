@@ -1,0 +1,215 @@
+/* Main Settings */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #262626;
+}
+
+/* Main Settings */
+
+/* //////////////// */
+
+.section-a {
+  background-image: linear-gradient(
+      rgba(56, 70, 77, 0.75),
+      rgba(56, 70, 77, 0.75)
+    ),
+    url(imgs/back-cover.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-bottom: 5rem;
+  width: 100%;
+  height: 20%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  color: red;
+  font-size: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.h01 {
+  margin-top: 15rem;
+}
+
+.e01 {
+  color: #ffff;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+
+.eh1 {
+  font-weight: 400;
+  font-size: 10rem;
+  letter-spacing: 0.5rem;
+  line-height: 10rem;
+  color: red;
+}
+.eh2 {
+  font-weight: 400;
+  font-size: 10rem;
+  letter-spacing: 0.5rem;
+  color: red;
+}
+
+.hl {
+  margin-top: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.hl a:link, :visited {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.hl a:hover {
+  color: #BFFFAF;
+}
+
+.text {
+  line-height: 2;
+}
+
+.title {
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+  font-weight: 400;
+}
+
+/* Section-b */
+.na {
+  color: #BFFFAF;
+  font-size: 2rem;
+  margin-top: 8rem;
+  margin-left: 3rem;
+}
+
+.section-b {
+  height: 51rem;
+  overflow: hidden;
+}
+
+.tm {
+  font-family: "Indie Flower", cursive;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.nm {
+  color: #BFFFAF;
+  font-size: 2rem;
+}
+
+.features div {
+  position: absolute;
+}
+
+.rise {
+  font-family: "Indie Flower", cursive;
+  color: #74b816;
+  display: inline-block;
+}
+
+.features {
+  margin-top: 12rem !important;
+  width: 62.5%;
+  height: max-content;
+  margin: auto;
+  margin-right: 1;
+  position: relative;
+}
+
+.dots {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.feature {
+  transition: transform 1s;
+}
+
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  /* opacity: 0; */
+  transform: translateY(15rem) !important;
+}
+
+/* Section C */
+/* .section-c {
+} */
+
+.section-c div {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.about p {
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+
+.about {
+  width: 62.5%;
+  text-align: center;
+  margin: auto;
+  margin-left: 1;
+  margin-top: 5rem !important;
+}
+
+.about a {
+  font-family: "Indie Flower", cursive;
+  color: red;
+  text-decoration: none;
+  padding-bottom: 1rem !important;
+  /* border-bottom: 1px solid red; */
+  display: inline-block;
+}
+
+.bg-2 {
+  background-image: linear-gradient(
+      rgba(56, 70, 77, 0.75),
+      rgba(56, 70, 77, 0.75)
+    ),
+    url(imgs/back-me.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
